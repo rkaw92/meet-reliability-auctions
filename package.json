@@ -1,0 +1,42 @@
+{
+  "name": "meet-reliability-auctions",
+  "version": "1.0.0",
+  "description": "a dummy auction app for demonstrating the use of reliable WebSocket RPC and Event Sourcing",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "esdf": "^0.1.4",
+    "esdf-memory-projector": "^0.1.0",
+    "esdf-store-redis": "^0.2.2",
+    "eventemitter2": "^1.0.0",
+    "redis": "^2.5.2",
+    "uuid": "^2.0.1",
+    "when": "^3.7.7",
+    "ws": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "meet.js",
+    "cqrs",
+    "event",
+    "sourcing",
+    "ddd",
+    "reliability",
+    "websocket",
+    "rpc",
+    "retry",
+    "auctions"
+  ],
+  "author": "Robert Kawecki <robert+npm@rkaw.pl>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rkaw92/meet-reliability-auctions.git"
+  }
+}

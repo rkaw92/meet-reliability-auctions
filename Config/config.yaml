@@ -1,0 +1,7 @@
+---
+redis: 
+    url: redis://localhost:6865
+http:
+    host: ::1
+    port: 8865
+...
